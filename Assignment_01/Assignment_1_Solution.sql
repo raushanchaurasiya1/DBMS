@@ -27,11 +27,11 @@ ALTER TABLE Student RENAME COLUMN Phone TO MobileNo;
 DROP TABLE Course;
 
 /* Insert 5 records */
-INSERT INTO Student VALUES (101, 'Rahul', 'CSE', 20, '9876543210', 'Delhi', 4);
-INSERT INTO Student VALUES (102, 'Amit', 'ECE', 21, '9123456789', 'Patna', 5);
-INSERT INTO Student VALUES (103, 'Neha', 'CSE', 22, '9988776655', 'Mumbai', 6);
-INSERT INTO Student VALUES (104, 'Pooja', 'ME', 19, '9090909090', 'Kolkata', 3);
-INSERT INTO Student VALUES (105, 'Ravi', 'CSE', 23, '9191919191', 'Patna', 7);
+INSERT INTO Student VALUES (101, 'Rajnish', 'CSE AI&ML', 20, '9876543210', 'Delhi', 4);
+INSERT INTO Student VALUES (102, 'Ashu', 'CSE', 21, '9123456789', 'Patna', 5);
+INSERT INTO Student VALUES (103, 'Harshit', 'CSE AI&ML', 22, '9988776655', 'Mumbai', 6);
+INSERT INTO Student VALUES (104, 'Navin', 'CSE AI&ML', 19, '9090909090', 'Kolkata', 3);
+INSERT INTO Student VALUES (105, 'Ashu', 'CSE', 23, '9191919191', 'Patna', 7);
 
 /* Display all records */
 SELECT * FROM Student;
